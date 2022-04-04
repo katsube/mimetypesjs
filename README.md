@@ -13,7 +13,7 @@ Get mime type from file name / file path. The list of MIME Types comes with Apac
 
 ## Installation
 ```shellsession
-$ npm install mimetypesjs
+$ npm install @katsube/mimetypesjs
 ```
 
 ## Usage
