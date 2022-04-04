@@ -1,0 +1,27 @@
+{
+  "name": "mimetypesjs",
+  "version": "1.0.0",
+  "description": "Return mimetype from filename extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MIME",
+    "MIMETYPE",
+    "extension"
+  ],
+  "author": "M.Katsube",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsube/mimetypesjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/katsube/mimetypesjs/issues"
+  },
+  "homepage": "https://github.com/katsube/mimetypesjs#readme",
+  "devDependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
