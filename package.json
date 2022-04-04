@@ -1,5 +1,5 @@
 {
-  "name": "mimetypesjs",
+  "name": "@katsube/mimetypesjs",
   "version": "1.0.0",
   "description": "Return mimetype from filename extension",
   "main": "index.js",
@@ -23,5 +23,16 @@
   "homepage": "https://github.com/katsube/mimetypesjs#readme",
   "devDependencies": {
     "node-fetch": "^2.6.7"
+  },
+  "bin": {
+    "mimetypesjs": "bin/getMimetypes.js"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "whatwg-url": "^5.0.0",
+    "tr46": "^0.0.3",
+    "webidl-conversions": "^3.0.1"
   }
 }
