@@ -1,6 +1,6 @@
 {
   "name": "@katsube/mimetypesjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Return mimetype from filename extension",
   "main": "index.js",
   "scripts": {
