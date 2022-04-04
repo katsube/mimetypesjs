@@ -18,7 +18,7 @@ $ npm install @katsube/mimetypesjs
 
 ## Usage
 ```javascript
-const mimeTypes = require('mimetypesjs')
+const mimeTypes = require('@katsube/mimetypesjs')
 
 const a = mimeTypes.get('a.txt')
 console.log(`a.txt: ${a}`)  // text/plain
@@ -28,7 +28,7 @@ console.log(`a.txt: ${a}`)  // text/plain
 ### get
 Returns the MIME type according to the file extension.
 ```javascript
-const mimeTypes = require('mimetypesjs')
+const mimeTypes = require('@katsube/mimetypesjs')
 
 const a = mimeTypes.get('a.txt')  // text/plain
 const b = mimeTypes.get('/var/www/html/b.html') // text/html
