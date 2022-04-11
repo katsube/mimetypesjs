@@ -1,6 +1,7 @@
 # MimeTypes.js
-Get mime type from file name / file path. The list of MIME Types comes with Apache.
+Get mime type from file name / file path. The list of MIME Types from [Apache HTTP Server](https://github.com/apache/httpd) and I added.
 
+A total of 985 types of MIME type are supported. The all list is [here](https://github.com/katsube/mimetypesjs/blob/main/data/mimetypes.pretty.json).
 ## INDEX
 1. [Installation](#installation)
 1. [Usage](#usage)
@@ -20,8 +21,9 @@ $ npm install @katsube/mimetypesjs
 ```javascript
 const mimeTypes = require('@katsube/mimetypesjs')
 
-const a = mimeTypes.get('a.txt')
-console.log(`a.txt: ${a}`)  // text/plain
+const a = mimeTypes.get('a.txt')  // "text/plain"
+const b = mimeTypes.get('b.html') // "text/html"
+const c = mimeTypes.get('/image/logo.jpg')  // "image/jpeg"
 ```
 
 ## API

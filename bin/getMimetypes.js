@@ -17,8 +17,12 @@
 // Apache
 const TARGET = 'https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types';
 
+// Additional Definition List
+const ADDLIST = './data/addlist.json'
+
 // Save file
 const SAVE_FILE = './data/mimetypes.json';
+const SAVE_FILE_PRETTY = './data/mimetypes.pretty.json';
 
 //--------------------------------------
 // Module
@@ -48,8 +52,14 @@ const fs = require('fs');
       });
     });
 
+    // Additional Definition List
+    const addlist = JSON.parse(fs.readFileSync(ADDLIST));
+    Object.keys(addlist).forEach(key=>{
+      mimeTypes[key] = addlist[key];
+    });
+
     // Save file
-    // fs.writeFileSync(SAVE_FILE, JSON.stringify(mimeTypes, null, 2));  // human friendly
+    fs.writeFileSync(SAVE_FILE_PRETTY, JSON.stringify(mimeTypes, null, 2));  // human friendly
     fs.writeFileSync(SAVE_FILE, JSON.stringify(mimeTypes));
   }
   catch(e){

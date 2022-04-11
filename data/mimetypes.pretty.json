@@ -1,6 +1,6 @@
 {
   "123": "application/vnd.lotus-1-2-3",
-  ".date": 1649177243950,
+  ".date": 1649668605563,
   ".url": "https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types",
   "ez": "application/andrew-inset",
   "aw": "application/applixware",
@@ -984,5 +984,7 @@
   "avi": "video/x-msvideo",
   "movie": "video/x-sgi-movie",
   "smv": "video/x-smv",
-  "ice": "x-conference/x-cooltalk"
+  "ice": "x-conference/x-cooltalk",
+  "md": "text/markdown",
+  "wasm": "application/wasm"
 }
