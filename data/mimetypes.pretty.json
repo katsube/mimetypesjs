@@ -1,6 +1,6 @@
 {
   "123": "application/vnd.lotus-1-2-3",
-  ".date": 1649668605563,
+  ".date": 1691056310356,
   ".url": "https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types",
   "ez": "application/andrew-inset",
   "aw": "application/applixware",
@@ -33,7 +33,6 @@
   "jar": "application/java-archive",
   "ser": "application/java-serialized-object",
   "class": "application/java-vm",
-  "js": "application/javascript",
   "json": "application/json",
   "jsonml": "application/jsonml+json",
   "lostxml": "application/lost+xml",
@@ -250,6 +249,7 @@
   "fzs": "application/vnd.fuzzysheet",
   "txd": "application/vnd.genomatix.tuxedo",
   "ggb": "application/vnd.geogebra.file",
+  "ggs": "application/vnd.geogebra.slides",
   "ggt": "application/vnd.geogebra.tool",
   "gex": "application/vnd.geometry-explorer",
   "gre": "application/vnd.geometry-explorer",
@@ -553,6 +553,7 @@
   "zirz": "application/vnd.zul",
   "zaz": "application/vnd.zzazz.deck+xml",
   "vxml": "application/voicexml+xml",
+  "wasm": "application/wasm",
   "wgt": "application/widget",
   "hlp": "application/winhlp",
   "wsdl": "application/wsdl+xml",
@@ -867,6 +868,8 @@
   "csv": "text/csv",
   "html": "text/html",
   "htm": "text/html",
+  "js": "text/javascript",
+  "mjs": "text/javascript",
   "n3": "text/n3",
   "txt": "text/plain",
   "text": "text/plain",
@@ -985,6 +988,5 @@
   "movie": "video/x-sgi-movie",
   "smv": "video/x-smv",
   "ice": "x-conference/x-cooltalk",
-  "md": "text/markdown",
-  "wasm": "application/wasm"
+  "md": "text/markdown"
 }
